@@ -11,7 +11,15 @@ TLoc (target location)
 TDir (target direction)
 NT   (number of trials)
 RP   (ResPonse)
+nExp (number of experiments)
+
+"dataProcessAll.m" is the main function of experimental data analysis. 
+If you want to get the analysis result of error rates, you can enter sub function "ErrorProcess,m"; 
+If you want to get the analysis result of reaction time, you can enter sub function "dataProcessValid.m"; 
+If you want to get the result of recognition stage, you can run sub function "dataProcessRec.m".
+The result includes the data format that can be used for SPSS analysis and the corresponding result pictures. The specific information is also explained in each function.
 
 Programmer: Xuelian Zang, Xiaowei Xie
+Updata data: 07/28/2020
 If you have any questions, please contact: zangxuelian@gmail.com or lianlian81821@126.com
 If you need to use the data and results in this paper, please indicate the source
